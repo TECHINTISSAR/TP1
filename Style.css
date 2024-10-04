@@ -1,0 +1,22 @@
+body{
+    
+        font-family: "Ariel";
+        font-size: 12pt;
+        
+}
+.Gras{
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+    
+}
+.Rouge{
+    color: red;
+    font-weight: bold;
+
+}
+img {
+    width : 350px;
+    height : 250px;
+    }
+    

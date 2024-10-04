@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Annuaire</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <div><a href="#bas">Menu local vers idgender2</a></div>
+    <div><a href="https://passeport.dauphine.fr/webpasseport/#/" target="_blank" accesskey="p">Passeport dauphine</a></div>
+    <img src="lo.png" alt="Dauphine">
+    <form >
+        
+        <div class="Gras"><label for="fname">First name :</label><br>
+            <input type="text" id="fname" placeholder="Nom" size="10"></div>
+        <div class="Gras"><label for="fname">Middle name :</label><br>
+            <input type="text" placeholder="Middle" size="10"></div>
+        <div class="Gras"><label for="Lname">Last name :</label><br>
+            <input type="text" placeholder="Last name" size="10"></div>
+       
+        <div class="Gras"> 
+            <label for="Gender">Gender</label><br>
+             <input type="radio" id="contactChoice1" name="contact" value="male" />
+            <label for="contactChoice1">Male</label>
+        
+            <input type="radio" id="contactChoice2" name="contact" value="female" />
+            <label for="contactChoicee">Female</label>
+        </div>
+        <div class="Rouge">
+            <label for="email">Email :</label><br>
+            <input type="Email" placeholder="Email">
+            
+        </div>
+        <div class="Gras">
+            <label for="tel">Phone :</label><br>
+            <input type="tel" placeholder="Phone">
+            
+        </div>
+        <div class="Gras"><input type="checkbox" placeholder="Contact">
+            <label for="tcontact">Contact?</label></div>
+        
+   
+    <div>
+        <button type="submit">soumettre</button>
+        <button type="reset">Réinitialiser le formulaire</button>
+        <button onclick="changeValue('fname', 'Name has changed')">Appel javascript</button>
+    </div>   
+</form>
+     <p id="bas">À la fois université de recherche et grande école
+        Spécialisée dans les Sciences des Organisations et de la Décision, notre université est un établissement d’enseignement supérieur bénéficiant de partenariats internationaux sur les 5 continents.
+        
+        Nous y privilégions l’innovation et l’exigence pédagogique ainsi qu’une formation adossée à la recherche exercée au sein de nos 6 laboratoires, unités mixtes avec le CNRS.
+        
+        C’est avec cette approche hybride, en connectant les savoirs et les sciences, le monde académique et professionnel, que nous pourrons allier connaissances et compétences au service de l’avenir de tous.
+        
+        Notre force ? Une remarquable alliance entre une recherche de haut niveau et l’insertion professionnelle réussie de nos étudiantes et étudiants pour construire une société responsable et engagée.</p>
+
+    
+<script >
+
+function changeValue(pId, pValue) {
+    document.getElementById(pId).value = pValue;
+}
+</script>
+
+</body>
+</html>
